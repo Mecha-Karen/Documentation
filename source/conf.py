@@ -81,3 +81,5 @@ html_title = "Mecha Karen"
 suppress_warnings = [
    "image.not_readable"
 ]
+
+html_static_path = ['_static']
