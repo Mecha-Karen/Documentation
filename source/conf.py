@@ -1,5 +1,11 @@
 import pydata_sphinx_theme
 import datetime
+import sys
+import os
+import re
+
+sys.path.insert(0, os.path.abspath('..'))
+sys.path.append(os.path.abspath('extensions'))
 
 project = 'Mecha Karen'
 copyright = '2021, Seniatical'
@@ -9,6 +15,30 @@ release = '1.9.2a'
 templates_path = ['_templates']
 
 exclude_patterns = ['*.md', '*.template']
+
+extensions = [
+   'builder',
+   'sphinx.ext.autodoc',
+   'sphinx.ext.extlinks',
+   'sphinx.ext.intersphinx',
+   'sphinx.ext.napoleon',
+   'sphinxcontrib_trio',
+   'details',
+   'exception_hierarchy',
+   'attributetable',
+   'resourcelinks',
+   'nitpick_file_ignorer',
+]
+autodoc_member_order = 'bysource'
+autodoc_typehints = 'none'
+source_suffix = '.rst'
+
+rst_prolog = """
+.. |coro| replace:: This function is a |coroutine_link|_.
+.. |maybecoro| replace:: This function *could be a* |coroutine_link|_.
+.. |coroutine_link| replace:: *coroutine*
+.. _coroutine_link: https://docs.python.org/3/library/asyncio-task.html#coroutine
+"""
 
 html_theme = 'pydata_sphinx_theme'
 html_logo = "_static/karen.png"
