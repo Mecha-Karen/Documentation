@@ -1,5 +1,5 @@
 # Mecha Karen - Documentation
-This repo contains all the official documentation for Mecha Karen. This can be viewed online ![here](https://docs.mechakaren.xyz).
+This repo contains all the official documentation for Mecha Karen. This can be viewed online [here](https://docs.mechakaren.xyz).
 
 ## ReStructuredText (.rst) Syntax
 Our documentation uses sphinx to build our API. Sphinx uses `ReStructuredText` which is a type of markup text which is easy to read and to work with.\
