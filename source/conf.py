@@ -3,10 +3,10 @@ import datetime
 import os
 import sys
 
-project = 'Mecha Karen'
-copyright = '2021, Seniatical'
-author = 'Seniatical'
-release = '1.9.2a'
+project = 'Documentation'
+copyright = '2021, Mecha Karen'
+author = 'Mecha Karen'
+release = '0.0.1a'
 
 templates_path = ['_templates']
 
@@ -38,7 +38,7 @@ html_theme_options = {
    "icon_links": [
       {
          "name": "GitHub",
-         "url": "https://github.com/Seniatical/Mecha-Karen/",
+         "url": "https://github.com/Mecha-Karen/",
          "icon": "fab fa-github",
       },
       {
