@@ -13,56 +13,25 @@
 Welcome to Mecha Karen's Documentation!
 =======================================
 
-Welcome to our documentation, this is were you can find 
+Hello there, I am Mecha Karen. A multi-functional discord bot that never stops growing!
 
-If you have any queries - `Click Here`_ to join our support server.
+As of now I have over 150+ commands - Ranging from moderation all the way to never seen before Image Manipulation!
+
+If you have any queries - `Click Here`_ to join our support server
 
 .. _Click Here: https://discord.gg/Q5mFhUM
 
-Websites & Bot
-==============
+Contents
+========
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
-   commands/index
-   dashboard/index
-   api/index
-
-Modules
-=======
-
-.. toctree::
-   :maxdepth: 2
-   mechak/index
-   cake/index
-
+    bot/index
+    dashboard/index
 
 Indices and tables
 ==================
 
 * :ref:`search`
 * :ref:`genindex`
-
-Errors
-======
-Errors are something which plague many of the applications we know today, so we have built stronger error handlers.
-These can include catching errors and returning the necessary output to guide you to use the correct command properly.
-Or they automatically report the error caused in detail so it can be debugged easily!
-
-Bot
----
-
-If you happen to encounter an error whilst running a command, Karen will prompt you with a message like so:
-
-.. figure:: /images/error.png
-   :width: 400px
-   :align: center
-   :alt: Example of an Error Code
-
-You can either open an issue on our github repo, or contact an executive with your error code!
-
-Documentation
--------------
-If you see something wrong on the documentation click the **Edit this Page** button and make an improvement!
-Then submit a PR (Pull Request) to our repository which will be reviewed and maybe accepted by one of our exeuctives if we think it was a good improvement!
