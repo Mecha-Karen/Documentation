@@ -13,7 +13,7 @@ This bot aims to be fun, intutive and unique. It implements all features on our 
 
 .. toctree::
   :titlesonly:
-  :maxdepth: 1
+  :maxdepth: 2
   :caption: Sections
 
   commands/index

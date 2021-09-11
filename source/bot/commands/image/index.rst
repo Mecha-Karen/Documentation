@@ -57,6 +57,7 @@ Commands
     commands/slap
     commands/solarize
     commands/spank
+    commands/spin
     commands/swirl
     commands/table_flip
     commands/transpose

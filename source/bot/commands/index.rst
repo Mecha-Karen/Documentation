@@ -21,13 +21,15 @@ Commands for our discord bot.
 
 Commands
 --------
-
 .. toctree::
-	:caption: Command Categories
-	:titlesonly:
+	:maxdepth: 1
 
-    moderation/index
-    image/index
+	moderation/index
+	image/index
+	games/index
+	fun/index
+	cache/index
+
 
 Glossary
 --------
