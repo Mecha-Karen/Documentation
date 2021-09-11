@@ -43,13 +43,13 @@ for pthObj in found:
 
     print(f'{HEADER}INFO{RESET}: {INFO}Copying {RESET}\n{current}\n{INFO} to\n{RESET}{newPth}')
     
-    if not os.path.isdir(newPth):
-        print(f'{HEADER}INFO{RESET}: {INFO}Created new directory at:{RESET}\n{newPth}')
+    ## if not os.path.exists(newPth):
+    ##     print(f'{HEADER}INFO{RESET}: {INFO}Created new directory at:{RESET}\n{newPth}')
 
     try:
-        ## copy_tree(current, newPth)
+        copy_tree(current, newPth)
 
-        # More info provided this way
+        """
         crntStart = perf_counter()
         for file in os.listdir(current):
             with open(current + f'\\{file}', 'rb') as r:
@@ -57,6 +57,7 @@ for pthObj in found:
                     w.write(r.read())
                     timeTaken = round((perf_counter() - crntStart) * 1000)
                     print(f'{HEADER}SUCCESS{RESET}: {SUCCESS}Copied {file} to{RESET}\n{newPth}\n{SUCCESS}In {timeTaken}ms{RESET}')
+        """
 
     except Exception as e:
         print(f'{HEADER}WARNING{RESET}: {WARNING}Failed to copy {RESET}{current}{INFO} to {RESET}{newPth}\n{WARNING}Errored out with {RESET}\n{e}')
