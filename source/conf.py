@@ -78,6 +78,7 @@ html_sidebars = {
 html_static_path = ['_static']
 html_css_files = [
     'css/style.css',
+    'css/codeblocks.css'
 ]
 
 html_title = "Mecha Karen"

@@ -60,9 +60,10 @@ Example Request
     import requests
 
     authorization = 'My-API-Token'
+    # Make sure to change the above to your token
     to_calculate = '1 plus 1'
     base_url = 'https://api.mechakaren.xyz/v1/math'
 
     r = requests.get(base_url, params={'authorization': authorization}, json={'equation': to_calculate})
     json = r.json()
-    print(r['Results']['Input'], r['Results']['Output'])
+    print(json['Results']['Input'], json['Results']['Output'])
