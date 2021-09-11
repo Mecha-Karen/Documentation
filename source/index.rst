@@ -12,10 +12,7 @@
 
 Welcome to Mecha Karen's Documentation!
 =======================================
-
-Hello there, I am Mecha Karen. A multi-functional discord bot that never stops growing!
-
-As of now I have over 150+ commands - Ranging from moderation all the way to never seen before Image Manipulation!
+Welcome to Mecha Karen's Documentation. This is the place were you can find all the project's documentation for our organization.
 
 If you have any queries - `Click Here`_ to join our support server
 
@@ -29,7 +26,6 @@ Contents
 
     bot/index
     dashboard/index
-    mechak/index
     cake/index
 
 Indices and tables
@@ -37,3 +33,26 @@ Indices and tables
 
 * :ref:`search`
 * :ref:`genindex`
+
+Errors
+======
+Errors are something which plague many applications. Even the best of the best experience them. But the more errors we face, the more we patch. It helps us develop a tool everybody love.
+
+We try keep errors to a minimum by testing before pushing to production and taking time with our products.
+
+Bot
+---
+If you face an error with the bot you will receive a message like:
+
+.. image:: /images/error.png
+   :width: 400px
+   :align: center
+   :alt: Example Error
+
+Documentation
+-------------
+If there is something wrong in the documentation, you can always click the ``Edit this page`` button which is the right of the page and looks like:
+
+.. image:: /images/edit.png
+   :align: center
+   :alt: Edit this page button
