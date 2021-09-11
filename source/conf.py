@@ -77,7 +77,7 @@ html_sidebars = {
 
 html_static_path = ['_static']
 html_css_files = [
-    'css/darkmode.css',
+    'css/theme.css',
 ]
 
 html_title = "Mecha Karen"
