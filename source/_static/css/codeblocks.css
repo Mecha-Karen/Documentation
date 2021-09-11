@@ -1,5 +1,6 @@
 /*
-Based of githubs colour scheme, because there very nice.
+Original css code was from `pygments-css`.
+Github URL: https://github.com/richleland/pygments-css
 */
 
 pre {
@@ -603,6 +604,3 @@ span.linenos.special {
 	color: #0000cf;
 	font-weight: bold
 }
-
-
-/* Literal.Number.Integer.Long */
