@@ -18,6 +18,8 @@ If you have any queries - `Click Here`_ to join our support server
 
 .. _Click Here: https://discord.gg/Q5mFhUM
 
+**Note:** Documentation is still W.I.P so many of the recourses are not yet here.
+
 Contents
 ========
 
