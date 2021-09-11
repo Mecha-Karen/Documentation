@@ -58,7 +58,7 @@ html_theme_options = {
    "show_prev_next": False,
    "navigation_depth": 3,
    "search_bar_text": "Search the docs ...",
-   "footer_items": ["copyright", "sphinx-version", "last-updated"],
+   "footer_items": ["copyright", "last-updated"],
 }
 
 html_context = {
