@@ -8,6 +8,16 @@ Before making any changes to the documentation it is recommended to read up on h
 ## Compiling the documentation
 In order to build the API into HTML files for testing and other reasons, follow the steps below:
 
+### Requirements
+Inorder to build our documentation you will need `Python3` installed.\
+Once you have that you will also need the following libraries installed as well:
+
+* Sphinx
+* Colorama
+
+And then your good to go.
+
+
 ### Step 1
 Clone the repository
 ```sh
@@ -28,10 +38,12 @@ If you are modifying or creating a new extension there is a folder called `exten
 `conf.py`. Then scroll until you find the `extensions` array. Add the filename of your extension NOT including the file extension.
 
 ### Step 3
-Head back to terminal and run `make html` in the dir you were in step 1. Once its finished compiling you will find a new directory called `build`.\
+Head back to terminal and run `make html` and then `python static.py` in the dir you were in step 1. Once its finished compiling you will find a new directory called `build`.\
 This folder contains the compiled HTML code. Navigate to `build/html/index.html` and open it. And thats it - you have compiled the docs!
 
 Once you are happy with your changes, either make a pull request with the modified source dir or keep it as a memory.
+
+**Note:** If your on linux `python` may be `python3` for you.
 
 ## Pull Requests
 To make pull requests a breeze, simply fork this repo. And make some changes to step 1 of compiling the docs.\
