@@ -41,7 +41,7 @@ for pthObj in found:
     pthExt = current[len(path):]
     newPth = build + pthExt
 
-    print(f'{HEADER}INFO{RESET}: {INFO}Copying {RESET}{current}{INFO} to {RESET}{newPth}')
+    print(f'{HEADER}INFO{RESET}: {INFO}Copying {RESET}\n{current}\n{INFO} to\n{RESET}{newPth}')
     
     if not os.path.isdir(newPth):
         print(f'{HEADER}INFO{RESET}: {INFO}Created new directory at:{RESET}\n{newPth}')
