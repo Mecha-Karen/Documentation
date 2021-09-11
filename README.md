@@ -38,7 +38,12 @@ If you are modifying or creating a new extension there is a folder called `exten
 `conf.py`. Then scroll until you find the `extensions` array. Add the filename of your extension NOT including the file extension.
 
 ### Step 3
-Head back to terminal and run `make html` and then `python static.py` in the dir you were in step 1. Once its finished compiling you will find a new directory called `build`.\
+Head back to terminal and run 
+```sh
+make html && python static.py
+# python may be `python3` in linux
+``` 
+in the dir you were in step 1. Once its finished compiling you will find a new directory called `build`.\
 This folder contains the compiled HTML code. Navigate to `build/html/index.html` and open it. And thats it - you have compiled the docs!
 
 Once you are happy with your changes, either make a pull request with the modified source dir or keep it as a memory.
@@ -56,7 +61,7 @@ cd Documentation
 Once you are happy with your changes, commit everything to your repo using:
 ```sh
 git add -A && git commit -m "Your Changes Summarised"
-# If your in powershell replace `&&` with `;`
+# If your not in powershell replace `&&` with `;`
 git push
 ```
 If you havent modified the `.gitignore` file all the garbage from `build` wont be included.
