@@ -29,6 +29,8 @@ Contents
 
     bot/index
     dashboard/index
+    mechak/index
+    cake/index
 
 Indices and tables
 ==================

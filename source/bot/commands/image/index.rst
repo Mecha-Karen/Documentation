@@ -20,7 +20,7 @@ Image Manipulation
 Commands
 --------
 .. toctree::
-    :maxdepth: 1
+    :titlesonly:
 
     commands/8bit
     commands/achievement

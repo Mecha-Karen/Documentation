@@ -23,8 +23,8 @@ Commands
 --------
 
 .. toctree::
-	:maxdepth: 1
 	:caption: Command Categories
+	:titlesonly:
 
     moderation/index
     image/index
