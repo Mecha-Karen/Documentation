@@ -22,11 +22,12 @@ Contents
 ========
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 2
 
-    bot/index
-    dashboard/index
-    cake/index
+   api/index
+   bot/index
+   cake/index
+   dashboard/index
 
 Indices and tables
 ==================
@@ -44,7 +45,7 @@ Bot
 ---
 If you face an error with the bot you will receive a message like:
 
-.. image:: /images/error.png
+.. image:: images/error.png
    :width: 400px
    :align: center
    :alt: Example Error
@@ -53,6 +54,6 @@ Documentation
 -------------
 If there is something wrong in the documentation, you can always click the ``Edit this page`` button which is the right of the page and looks like:
 
-.. image:: /images/edit.png
+.. image:: images/edit.png
    :align: center
    :alt: Edit this page button
