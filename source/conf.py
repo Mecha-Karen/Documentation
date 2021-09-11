@@ -71,8 +71,8 @@ html_context = {
 }
 
 html_sidebars = {
-    "**": ["search-field", "sidebar-nav-bs"],
-    "index": ["search-field", "home-navbar"]
+    "**": ["search-field", "sidebar-nav-bs", 'arc.html'],
+    "index": ["search-field", "home-navbar", 'arc.html']
 }
 
 html_static_path = ['_static']
