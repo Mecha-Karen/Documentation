@@ -1,5 +1,5 @@
 """
-Move static files from `source` which are not in the `_static`.
+Move static files from `source` which are not in the `_static` folder.
 """
 
 import os
