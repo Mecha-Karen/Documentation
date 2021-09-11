@@ -1,11 +1,11 @@
-.. _Accepted:
-
 .. meta::
     :title: Documentation - Mecha Karen
     :type: website
     :url: https://docs.mechakaren.xyz/
     :description: Accepted images for image related commands [Tutorial] [Image].
     :theme-color: #f54646
+
+.. _Accepted:
 
 Accepted Images
 ===============
