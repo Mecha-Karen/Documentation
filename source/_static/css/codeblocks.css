@@ -396,7 +396,7 @@ span.linenos.special {
 /* Name.Property */
 
 .highlight .nt {
-	color: #204a87;
+	color: #7987ff;
 	font-weight: bold
 }
 
@@ -451,7 +451,7 @@ span.linenos.special {
 /* Literal.Number.Hex */
 
 .highlight .mi {
-	color: #0000cf;
+	color: #0d51c3;
 	font-weight: bold
 }
 
@@ -488,7 +488,7 @@ span.linenos.special {
 /* Literal.String.Char */
 
 .highlight .dl {
-	color: #4e9a06
+	color: #97c7bb
 }
 
 
@@ -503,42 +503,42 @@ span.linenos.special {
 /* Literal.String.Doc */
 
 .highlight .s2 {
-	color: #4e9a06
+	color: #97c7bb
 }
 
 
 /* Literal.String.Double */
 
 .highlight .se {
-	color: #4e9a06
+	color: #97c7bb
 }
 
 
 /* Literal.String.Escape */
 
 .highlight .sh {
-	color: #4e9a06
+	color: #97c7bb
 }
 
 
 /* Literal.String.Heredoc */
 
 .highlight .si {
-	color: #4e9a06
+	color: #97c7bb
 }
 
 
 /* Literal.String.Interpol */
 
 .highlight .sx {
-	color: #4e9a06
+	color: #97c7bb
 }
 
 
 /* Literal.String.Other */
 
 .highlight .sr {
-	color: #4e9a06
+	color: #97c7bb
 }
 
 
