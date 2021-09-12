@@ -2,7 +2,7 @@
     :title: Documentation - Mecha Karen
     :type: website
     :url: https://docs.mechakaren.xyz/api
-    :description: API Documentation
+    :description: API Reference
     :theme-color: #f54646
 
 API
@@ -46,10 +46,8 @@ Making Requests
 Inorder to make requests you will need an access token, which can be created from `here <https://api.mechakaren.xyz>`_.
 For steps and guidance check out :ref:`HowToGetToken`.
 
-You can 2 requests per second, if you exceed that limit, you will be hit with a ratelimit. If you continue to make requests your IP will be blacklisted from accessing our websites.
-For larger applications you will need to send us an email at ``admin@mechakaren.xyz`` and we will approve your request. In the future we plan to expand to a larger ratelimit.
-
 Each request will require your API Token to be included either in the url with they key `authorization` or your headers (Authorzation).
+If you surpass your daily requests it will return the time left till the refresh.
 
 Example Request
 ^^^^^^^^^^^^^^^
@@ -67,3 +65,62 @@ Example Request
     r = requests.get(base_url, params={'authorization': authorization}, json={'equation': to_calculate})
     json = r.json()
     print(json['Results']['Input'], json['Results']['Output'])
+
+
+Ratelimits
+----------
+You are allowed to make 2 requests per second. If you surpass this limit a few times, your requests will be raised as a warning. However, continuing to do so will result in a block.
+
+Each token have a limit to many requests are made per day, once you hit this limit it will no longer be able to be used until it has been refreshed.
+
+Ratelimit Example Responses
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block:: json
+    :caption: Too many requests in a certain timeframe
+
+    {"code": 429, "error": "You are currently being rate limited ..."}
+
+.. code-block:: json
+    :caption: Surpassing allowed requests on a token
+
+    {"code": 429, "error": "You have used up all ... requests on this token"}
+
+
+Errors
+------
+Our errors use standard HTTP exception codes and inherit the same meaning/cause, with a description of what actually caused the error attached to them.
+
++------+-------------------------------+
+| Code | Description                   |
++======+===============================+
+| 400  | Request data sent by client   |
+|      | cannot be interpretted whilst |
+|      | being of the correct type     |
++------+-------------------------------+
+| 403  | Access to restricted to an    |
+|      | endpoint or recourse has been |
+|      | blocked due to insufficient   |
+|      | permissions                   |
++------+-------------------------------+
+| 404  | When a requested recourse has |
+|      | been renamed, moved, deleted  |
+|      | or just doesn't exist.        |
++------+-------------------------------+
+| 405  | Incorrect http method used on |
+|      | an endpoint, best way of      |
+|      | checking for the correct      |
+|      | method is the documentation   |
++------+-------------------------------+
+| 429  | Returned when your making too |
+|      | many requests in a given time |
+|      | frame or you have surpassed   |
+|      | the amount of requests you    |
+|      | make on a certain endpoint    |
++------+-------------------------------+
+| 500  | An error which occured on our |
+|      | side, this is not your fault  |
+|      | but our's, report us of the   |
+|      | issue to help us fix it       |
+|      | quicker                       |
++------+-------------------------------+
