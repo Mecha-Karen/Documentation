@@ -56,6 +56,6 @@ Documentation
 -------------
 If there is something wrong in the documentation, you can always click the ``Edit this page`` button which is the right of the page and looks like:
 
-.. image:: images/edit1.png
+.. image:: images/edit.png
    :align: center
    :alt: Edit this page button

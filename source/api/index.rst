@@ -5,16 +5,26 @@
     :description: API Reference
     :theme-color: #f54646
 
+***
 API
-===
+***
 
 Our API is the backbone for many of our great creations including our dashboard, database and discord bot.
 Inorder to access our API you will need an ``Access Token``.
 
 .. _HowToGetToken:
 
+Endpoints
+=========
+.. toctree::
+    :maxdepth: 1
+
+    Anime <endpoints/anime>
+    Chatbot <endpoints/chatbot>
+
+
 How do I get a Access Token?
-----------------------------
+============================
 Firstly, you need to sign up to our API. If you have already, you can simply login.
 
 Once you have logged in, you will see a screen like:
@@ -42,7 +52,7 @@ To copy the value of your token you can click the `Click to show` text from the 
 
 
 Making Requests
----------------
+===============
 Inorder to make requests you will need an access token, which can be created from `here <https://api.mechakaren.xyz>`_.
 For steps and guidance check out :ref:`HowToGetToken`.
 
@@ -50,7 +60,7 @@ Each request will require your API Token to be included either in the url with t
 If you surpass your daily requests it will return the time left till the refresh.
 
 Example Request
-^^^^^^^^^^^^^^^
+---------------
 
 .. code-block:: py
     :caption: Endpoint used in this example was the math endpoint
@@ -68,13 +78,13 @@ Example Request
 
 
 Ratelimits
-----------
+==========
 You are allowed to make 2 requests per second. If you surpass this limit a few times, your requests will be raised as a warning. However, continuing to do so will result in a block.
 
 Each token have a limit to many requests are made per day, once you hit this limit it will no longer be able to be used until it has been refreshed.
 
 Ratelimit Example Responses
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 .. code-block:: json
     :caption: Too many requests in a certain timeframe
@@ -88,7 +98,7 @@ Ratelimit Example Responses
 
 
 Errors
-------
+======
 Our errors use standard HTTP exception codes and inherit the same meaning/cause, with a description of what actually caused the error attached to them.
 
 +------+-------------------------------+
