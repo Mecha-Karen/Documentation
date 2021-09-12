@@ -1,14 +1,14 @@
 .. meta::
    :title: Documentation - Mecha Karen
    :type: website
-   :url: https://docs.mechakaren.xyz/
+   :url: https://docs.mechakaren.xyz/api
    :description: API Reference [Chatbot Endpoint]
    :theme-color: #f54646
 
 
-*******
-Chatbot
-*******
+****************
+Chatbot Endpoint
+****************
 Speak to self learning AI, new training data provided is implemented after it deemed safe meaning it doesn't contain any of the following:
 
 * NSFW Content

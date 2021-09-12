@@ -1,7 +1,7 @@
 .. meta::
    :title: Documentation - Mecha Karen
    :type: website
-   :url: https://docs.mechakaren.xyz/
+   :url: https://docs.mechakaren.xyz/api
    :description: API Reference [Anime Endpoint]
    :theme-color: #f54646
 
