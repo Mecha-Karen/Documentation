@@ -10,7 +10,7 @@ Anime Endpoint
 **************
 Recieve hundreds of anime gifs at your fingertips with many categories to choose from!
 
-As a bonus for all API versions the library of gids will continue to grow and your welcome to add your own gifs by contacting one of our executives.
+As a bonus for all API versions the library of gifs will continue to grow and your welcome to add your own gifs by contacting one of our executives.
 
 Categories
 ==========
