@@ -3,6 +3,8 @@ import datetime
 import os
 import sys
 
+sys.path.append(os.path.abspath('../extensions'))
+
 project = 'Documentation'
 copyright = '2021, Mecha Karen'
 author = 'Mecha Karen'
