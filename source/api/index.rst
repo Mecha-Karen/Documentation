@@ -134,3 +134,20 @@ Our errors use standard HTTP exception codes and inherit the same meaning/cause,
 |      | issue to help us fix it       |
 |      | quicker                       |
 +------+-------------------------------+
+
+Example Error Response
+----------------------
+Generic non `500` error response
+
+.. code-block:: json
+
+    {
+        "code": "error-code",
+        "error": "cause-of-error",
+    }
+
+``500`` Error Response:
+
+.. code-block:: text
+
+    Internal Server Error
