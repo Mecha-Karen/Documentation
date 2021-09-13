@@ -47,7 +47,10 @@ JSON
 
 Key, Value
 ----------
-message=MyMessage
+
+.. code-block:: text
+
+    message=MyMessage
 
 Response
 ========
