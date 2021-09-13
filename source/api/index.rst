@@ -19,9 +19,13 @@ Endpoints
 .. toctree::
     :maxdepth: 1
 
-    Anime <endpoints/anime>
-    Chatbot <endpoints/chatbot>
-    Math <endpoints/math/index>
+    Anime <endpoints/v1/anime>
+    Chatbot <endpoints/v1/chatbot>
+    Math <endpoints/math/v1/index>
+
+..
+    The version will always be the latest
+    Change when a new version is released
 
 
 How do I get a Access Token?
