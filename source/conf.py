@@ -71,9 +71,13 @@ html_context = {
 }
 
 html_sidebars = {
-    "**": ["search-field", "sidebar-nav-bs", 'arc.html'],
-    "index": ["search-field", "home-navbar", 'arc.html']
+    "**": ["search-field", "sidebar-nav-bs"],
+    "index": ["search-field", "home-navbar"]
 }
+
+if os.path.exists('./_templates/arc.html'):
+   for key in html_sidebars.keys():
+      html_sidebars[key].append('arc.html')
 
 html_static_path = ['_static']
 html_css_files = [
