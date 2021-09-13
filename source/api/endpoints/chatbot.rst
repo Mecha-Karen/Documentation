@@ -59,8 +59,8 @@ The order it searches your request for the provided message.
 .. code-block:: text
 
     URL Parameter
-        Request JSON
-            Request Body
+        JSON Request Body
+            Key, Value Request Body
 
 Response
 ========
