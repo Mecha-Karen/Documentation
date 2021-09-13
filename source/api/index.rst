@@ -21,6 +21,7 @@ Endpoints
 
     Anime <endpoints/anime>
     Chatbot <endpoints/chatbot>
+    Math <endpoints/math>
 
 
 How do I get a Access Token?
