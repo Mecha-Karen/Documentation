@@ -52,6 +52,16 @@ Key, Value
 
     message=MyMessage
 
+Hierachy
+========
+The order it searches your request for the provided message.
+
+.. code-block:: text
+
+    URL Parameter
+        Request JSON
+            Request Body
+
 Response
 ========
 This endpoint returns a ``JSONResponse`` on all requests, even invalid. The URL is embedded in an array. Checkout the example response.
