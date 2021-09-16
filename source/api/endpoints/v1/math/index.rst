@@ -10,6 +10,13 @@ Math Endpoint
 *************
 Complete basic mathematical queries, including some worded queries.
 
+Related Pages
+-------------
+.. toctree::
+    :maxdepth: 1
+
+    patterns
+
 Request Method
 ==============
 This endpoint only accepts a ``GET`` request.
