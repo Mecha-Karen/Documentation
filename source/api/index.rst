@@ -22,6 +22,7 @@ Endpoints
     Anime <endpoints/v1/anime>
     Chatbot <endpoints/v1/chatbot>
     Math <endpoints/v1/math/index>
+    Image <endpoints/v1/image/index>
 
 ..
     The version will always be the latest
