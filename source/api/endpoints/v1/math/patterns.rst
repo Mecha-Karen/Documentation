@@ -102,6 +102,15 @@ Never, ever do:
 
 Scales
 ======
+
+.. tip::
+
+    Did you know you can pair scales with numbers to create bigger numbers!
+
+    .. code-block:: text
+
+        2 trillion cubed
+
 Instead of writing large numbers that have millions of zeros you can use inbuilt scales which are listed below:
 
 .. code-block:: text
@@ -111,3 +120,5 @@ Instead of writing large numbers that have millions of zeros you can use inbuilt
     million -> 1 * (10 ^ 6)
     billion -> 1 * (10 ^ 9)
     trillion -> 1 * (10 ^ 12)
+
+Unfortunately as of now, doing ``2 trillion and 200 million`` cannot be parsed, this will be implemented in the near future.

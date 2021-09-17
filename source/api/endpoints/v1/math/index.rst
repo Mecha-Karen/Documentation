@@ -13,7 +13,7 @@ Complete basic mathematical queries, including some worded queries.
 Related Pages
 -------------
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     patterns
 
