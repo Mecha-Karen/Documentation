@@ -12,9 +12,12 @@ Edit images using various filters, effects and equations. The max image size as 
 
 We plan to add features to return frames of gif/video without physically saving it as a file.
 
-Endpoints
-=========
-Currently being written up, Coming Soon™️
+Related Pages
+=============
+.. toctree::
+    :maxdepth: 1
+
+    endpoints
 
 Accepted Image Types
 ====================
