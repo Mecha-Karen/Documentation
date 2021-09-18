@@ -20,6 +20,8 @@ Quick Links
 * `Posterize <#posterizefilter>`_
 * `Solarize <#solarizefilter>`_
 * `Transpose <#transposefilter>`_
+* `Flip <#flipfilter>`_
+* `Blur <#blurfilter>`_
 
 .. _InvertFilter:
 
@@ -133,7 +135,7 @@ URL Parameters
 * as_type - The type of image to return [Not Implemented]
 * input_type - The image extension [Optional] [Default="Auto"]
 
-.. _FlipFilter:
+.. _BlurFilter:
 
 Blur
 ====
