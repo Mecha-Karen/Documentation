@@ -39,7 +39,7 @@ Indices and tables
 
 Errors
 ======
-Errors are something which plague many applications. Even the best of the best experience them. But the more errors we face, the more we patch. It helps us develop a tool everybody love.
+Errors are something which plague many applications. Even the best of the best experience them. But the more errors we face, the more we patch. It helps us develop a tool everybody loves.
 
 We try keep errors to a minimum by testing before pushing to production and taking time with our products.
 
