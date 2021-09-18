@@ -18,6 +18,8 @@ Quick Links
 * `Grayscale <#grayscalefilter>`_
 * `Mirror <#mirrorfilter>`_
 * `Posterize <#posterizefilter>`_
+* `Solarize <#solarizefilter>`_
+* `Transpose <#transposefilter>`_
 
 .. _InvertFilter:
 
@@ -91,4 +93,57 @@ URL Parameters
 * input_type - The image extension [Optional] [Default="Auto"]
 * bits - For each channel, the amount of bits to keep (1-8) [Optional] [Default=1]
 
+.. _SolarizeFilter:
+
+Solarize
+========
+All pixel values above a threshold are inverted.
+
+URL Parameters
+--------------
+* authorization - Token used for authorizing requests [Optional]
+* url - The URL of the image to invert [Optional]
+* as_type - The type of image to return [Not Implemented]
+* input_type - The image extension [Optional] [Default="Auto"]
+* threshold - The value to decide which pixels are inverted [Optional] [Default=128]
+
+.. _TransposeFilter:
+
+Transpose
+=========
+Return a new picture that is transposed according to the EXIF Orientation tag if an image contains one. Return a duplicate of the image if not.
+
+URL Parameters
+--------------
+* authorization - Token used for authorizing requests [Optional]
+* url - The URL of the image to invert [Optional]
+* as_type - The type of image to return [Not Implemented]
+* input_type - The image extension [Optional] [Default="Auto"]
+
+.. _FlipFilter:
+
+Flip
+====
+Horizontally flip the image (left to right).
+
+URL Parameters
+--------------
+* authorization - Token used for authorizing requests [Optional]
+* url - The URL of the image to invert [Optional]
+* as_type - The type of image to return [Not Implemented]
+* input_type - The image extension [Optional] [Default="Auto"]
+
+.. _FlipFilter:
+
+Blur
+====
+The image is blurred using a series of extended box filters that approach a Gaussian kernel. See `me <https://www.mia.uni-saarland.de/Publications/gwosdek-ssvm11.pdf>`_ for further information.
+
+URL Parameters
+--------------
+* authorization - Token used for authorizing requests [Optional]
+* url - The URL of the image to invert [Optional]
+* as_type - The type of image to return [Not Implemented]
+* input_type - The image extension [Optional] [Default="Auto"]
+* radius - The Gaussian kernel's standard deviation. [Optional] [Default=15]
 
