@@ -148,4 +148,3 @@ URL Parameters
 * as_type - The type of image to return [Not Implemented]
 * input_type - The image extension [Optional] [Default="Auto"]
 * radius - The Gaussian kernel's standard deviation. [Optional] [Default=15]
-
