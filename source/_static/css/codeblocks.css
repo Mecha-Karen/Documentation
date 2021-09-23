@@ -201,7 +201,7 @@ span.linenos.special {
 /* Generic.Inserted */
 
 .highlight .go {
-	color: #000000;
+	color: #e4e4e4;
 	font-style: italic
 }
 
@@ -427,7 +427,7 @@ span.linenos.special {
 /* Text.Whitespace */
 
 .highlight .mb {
-	color: #0000cf;
+	color: #0d51c3;
 	font-weight: bold
 }
 
@@ -435,7 +435,7 @@ span.linenos.special {
 /* Literal.Number.Bin */
 
 .highlight .mf {
-	color: #0000cf;
+	color: #0d51c3;
 	font-weight: bold
 }
 
@@ -443,7 +443,7 @@ span.linenos.special {
 /* Literal.Number.Float */
 
 .highlight .mh {
-	color: #0000cf;
+	color: #0d51c3;
 	font-weight: bold
 }
 
@@ -459,7 +459,7 @@ span.linenos.special {
 /* Literal.Number.Integer */
 
 .highlight .mo {
-	color: #0000cf;
+	color: #0d51c3;
 	font-weight: bold
 }
 

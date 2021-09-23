@@ -254,3 +254,24 @@ span.highlighted {
     border-radius: 20px;
     border: 3px solid transparent;
 }
+
+/* Code blocks */
+
+code .pre {
+    margin: 0;
+    padding: .2em .4em;
+    font-size: 85%;
+    color: rgba(233, 233, 233, 0.4);
+    border-radius: 6px;
+    background-color: #1f283e;
+}
+
+a code .pre {
+    cursor: pointer;
+    color: var(--pst-color-link);
+}
+
+a code .pre:hover {
+    text-decoration: underline;
+    color: var(--pst-color-link-hover);
+}
