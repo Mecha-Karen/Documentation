@@ -10,6 +10,18 @@ copyright = '2021, Mecha Karen'
 author = 'Mecha Karen'
 release = '0.0.1a'
 
+extensions = [
+   'sphinx.ext.autodoc', 
+   'sphinx.ext.coverage', 
+   'sphinx.ext.napoleon',
+   'sphinx.ext.extlinks',
+   'sphinx.ext.intersphinx',
+]
+
+intersphinx_mapping = {
+  'py': ('https://docs.python.org/3', None),
+}
+
 templates_path = ['_templates']
 
 exclude_patterns = ['*.md', '*.template']
