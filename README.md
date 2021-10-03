@@ -67,3 +67,18 @@ git push
 If you havent modified the `.gitignore` file all the garbage from `build` wont be included.
 
 Then travel to github and submit your PR.
+
+## Compiling Cake
+To compile the cake section successfully, you will need to first install it, you can either do it directly from the branch or from pypi
+
+```sh
+# PyPi
+pip/pip3 install MathCake
+
+# Development
+git clone https://github.com/Mecha-Karen/Cake
+cd Cake/cake
+pip install .
+```
+
+Then compile the docs as normal
