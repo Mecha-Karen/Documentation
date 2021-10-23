@@ -275,3 +275,8 @@ a code .pre:hover {
     text-decoration: underline;
     color: var(--pst-color-link-hover);
 }
+
+/* Remove double lines under ruberic */
+p.rubric {
+    border-bottom: none !important;
+}

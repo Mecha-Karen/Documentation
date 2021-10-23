@@ -16,6 +16,7 @@ extensions = [
    'sphinx.ext.napoleon',
    'sphinx.ext.extlinks',
    'sphinx.ext.intersphinx',
+   'sphinx.ext.autosummary',
 ]
 
 intersphinx_mapping = {

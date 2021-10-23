@@ -1,3 +1,0 @@
-.. currentmodule:: cake
-
-.. automodule:: number

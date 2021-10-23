@@ -1,3 +1,10 @@
+.. meta::
+    :title: Documentation - Mecha Karen
+    :type: website
+    :url: https://docs.mechakaren.xyz/
+    :description: Cake - API Reference
+    :theme-color: #f54646
+
 .. currentmodule:: cake
 
 *************
@@ -23,28 +30,19 @@ Information about the version
     Just like :obj:`py:sys.version_info` the valid values for ``releaselevel`` are
     'Pre-Alpha', 'Alpha', 'Beta', 'Stable' and 'Final'.
 
-Core Types
-==========
+Pages
+=====
 
-.. autoclass:: Equation
-    :members:
-    :undoc-members:
-    :private-members: _sub
+.. toctree::
+    :titlesonly:
+    :caption: Core
 
-.. autoclass:: Number
-    :members:
-    :undoc-members:
-    :exclude-members: set_type, remove_value, set_value
-    :special-members: __repr__
+    core/number
+    core/types
 
-.. autoclass:: Surd
-    :members:
-    :undoc-members:
+.. toctree::
+    :titlesonly:
+    :caption: Parsing
 
-.. autoclass:: Unknown
-    :members:
-    :undoc-members:
-
-.. autoclass:: Operator
-    :members:
-    :undoc-members:
+    parsing/equation
+    parsing/expression
