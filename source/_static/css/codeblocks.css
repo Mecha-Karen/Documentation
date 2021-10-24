@@ -201,7 +201,7 @@ span.linenos.special {
 /* Generic.Inserted */
 
 .highlight .go {
-	color: #e4e4e4;
+	color: #3e457b;
 	font-style: italic
 }
 
@@ -566,21 +566,21 @@ span.linenos.special {
 /* Name.Builtin.Pseudo */
 
 .highlight .fm {
-	color: #000000
+	color: #d2a8ff
 }
 
 
 /* Name.Function.Magic */
 
 .highlight .vc {
-	color: #000000
+	color: #d2a8ff
 }
 
 
 /* Name.Variable.Class */
 
 .highlight .vg {
-	color: #000000
+	color: #d2a8ff
 }
 
 
