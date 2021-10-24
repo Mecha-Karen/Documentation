@@ -2,30 +2,34 @@
     :title: Documentation - Mecha Karen
     :type: website
     :url: https://docs.mechakaren.xyz/
-    :description: Cake - Equation [Object]
+    :description: Cake - Equation [API Ref]
     :theme-color: #f54646
 
 .. currentmodule:: cake
 
-***************
-Equation Object
-***************
-This class must not be directly used in an ``if`` statement, when creating one from an ``Expression`` object.
+********
+Equation
+********
+A class which simply states, ``expr1 = expr2``.
 
-.. code-block:: py
+.. warning::
 
-    >>> if (Expr == ...):
-            ...
+    This class must not be directly used in an ``if`` statement, when creating one from an ``Expression`` object.
 
-    # This is wrong!
-    # It will ALWAYS be true
-    # Instead try something like
+    .. code-block:: py
 
-    >>> if (Expr == ...).solve(*args, **kwargs) == ...:
-            ...
+        >>> if (Expr == ...):
+                ...
 
-    # This is saying, that if the solved equation is equal to something
-    # Instead of saying ``if Equation:``
+        # This is wrong!
+        # It will ALWAYS be true
+        # Instead try something like
+
+        >>> if (Expr == ...).solve(*args, **kwargs) == ...:
+                ...
+
+        # This is saying, that if the solved equation is equal to something
+        # Instead of saying ``if Equation:``
 
 
 .. autoclass:: cake.Equation

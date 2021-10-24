@@ -39,6 +39,7 @@ Pages
 
     core/number
     core/types
+    core/surd
 
 .. toctree::
     :titlesonly:

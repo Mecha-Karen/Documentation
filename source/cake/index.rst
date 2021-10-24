@@ -44,7 +44,7 @@ To keep our documentation short and concise we have a few shortened ways of repr
     N
         The current class / object
     O
-        Another class of the same type/compatibility
+        Another class of the same type/compatibility. May also include the method in which being used.
 
 Contents
 ========

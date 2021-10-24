@@ -8,4 +8,11 @@
 ******
 Guides
 ******
-Extensive documentation which talks about how the internals of ``Cake`` works and how YOU can implement them in your cool projects.
+Extended documentation which talks about how the internals of ``Cake`` works and how YOU can implement them in your cool projects.
+
+Pages
+=====
+
+.. toctree::
+
+    rss/functions

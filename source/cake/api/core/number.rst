@@ -2,22 +2,22 @@
     :title: Documentation - Mecha Karen
     :type: website
     :url: https://docs.mechakaren.xyz/
-    :description: Cake - Number class
+    :description: Cake - Number class [API Ref]
     :theme-color: #f54646
 
 .. currentmodule:: cake
 
 .. _NumberClass:
 
-************
-Number Class
-************
+******
+Number
+******
 
 .. autoclass:: cake.Number
     :members:
     :exclude-members: set_value, remove_value, set_type
 
-    .. rubric:: Methods
+    .. rubric:: Dunder Methods
 
     .. autosummary::
 
@@ -50,3 +50,11 @@ Number Class
         ~cake.Number.__float__
         ~cake.Number.__complex__
         ~cake.Number.__str__
+
+    .. method:: get_value(self, other, check_value_attr, *args, **kwargs)
+
+        Get the value of other by checking if O has either, a ``get_value`` method or a ``value`` attr.
+
+        .. note::
+
+            If O is ``None``, O becomes N
